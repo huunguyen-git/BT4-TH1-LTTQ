@@ -9,6 +9,7 @@
 
             // Tao ma tran random
             randomMaTran(matran, out n, out m);
+            Console.Write("Nhap vi tri dong can xoa: ");
             String strK = Console.ReadLine();
             int k = int.Parse(strK);
 
