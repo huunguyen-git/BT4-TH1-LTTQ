@@ -33,7 +33,7 @@
             // Dong co tong lon nhat
             int maxRowSum, maxRowIndex;
             if (dongCoTongLonNhat(matran, n, m, out maxRowSum, out maxRowIndex))
-                Console.WriteLine("Vi tri dong co tong lon nhat " + maxRowSum + " la: " + maxRowIndex + 1);
+                Console.WriteLine("Vi tri dong co tong lon nhat " + maxRowSum + " la: " + (maxRowIndex + 1));
             else
                 Console.WriteLine("Khong tim duoc dong co tong lon nhat");
 
